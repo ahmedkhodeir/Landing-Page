@@ -1,0 +1,79 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+/* Section Styles */
+#home,
+#about,
+#contact {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+#home {
+  margin-left: 0;
+}
+
+#contact {
+  margin-right: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .container {
+    padding: 10px;
+  }
+  
+  #home,
+  #about,
+  #contact {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 24px;
+  }
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  p {
+    font-size: 14px;
+  }
+}
